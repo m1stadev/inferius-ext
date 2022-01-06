@@ -6,11 +6,21 @@
 	<array>
 		<dict>
 			<key>ApBoardID</key>
-			<string>0x0A</string>
+			<string>0x0E</string>
 			<key>ApChipID</key>
 			<string>0x8960</string>
 			<key>ApSecurityDomain</key>
 			<string>0x01</string>
+			<key>BbActivationManifestKeyHash</key>
+			<data>
+			rqXM4UNmjQ77TOHyyUyWamSWxqo=
+			</data>
+			<key>BbChipID</key>
+			<string>0x006F20E1</string>
+			<key>BbProvisioningManifestKeyHash</key>
+			<data>
+			7MQEUyvzG4gjjZc7KsNNAVTS8g4=
+			</data>
 			<key>Info</key>
 			<dict>
 				<key>BuildNumber</key>
@@ -18,7 +28,7 @@
 				<key>BuildTrain</key>
 				<string>Greensburg</string>
 				<key>DeviceClass</key>
-				<string>j85ap</string>
+				<string>j87ap</string>
 				<key>FDRSupport</key>
 				<false/>
 				<key>MinimumSystemPartition</key>
@@ -50,6 +60,8 @@
 				<string>Customer Software Update</string>
 				<key>VariantContents</key>
 				<dict>
+					<key>BasebandFirmware</key>
+					<string>Release</string>
 					<key>DFU</key>
 					<string>Production</string>
 					<key>Firmware</key>
@@ -156,6 +168,68 @@
 					</dict>
 					<key>Trusted</key>
 					<true/>
+				</dict>
+				<key>BasebandFirmware</key>
+				<dict>
+					<key>APPS-DownloadDigest</key>
+					<data>
+					TSVi7eYY4FiAzXynDVik6TY2S1c=
+					</data>
+					<key>APPS-HashTableDigest</key>
+					<data>
+					xd/JBOTxYJWmLkTWqLWl8GeINgU=
+					</data>
+					<key>DSP1-DownloadDigest</key>
+					<data>
+					RigCEz69gUymh2UdyJdwZVx74Ic=
+					</data>
+					<key>DSP1-HashTableDigest</key>
+					<data>
+					a3XhREtzynTWtyQGqi/RXorXSVE=
+					</data>
+					<key>DSP2-DownloadDigest</key>
+					<data>
+					3JTgHWvC+XZYWa5U5MPvle+imj4=
+					</data>
+					<key>DSP2-HashTableDigest</key>
+					<data>
+					Hvppb92/1o/cWQbl8ftoiW5jOLg=
+					</data>
+					<key>DSP3-DownloadDigest</key>
+					<data>
+					R60ZfsOqZX+Pd/UnEaEhWfNvVlY=
+					</data>
+					<key>DSP3-HashTableDigest</key>
+					<data>
+					DFQWkktFWNh90G2hOfwO14oEbrI=
+					</data>
+					<key>Info</key>
+					<dict>
+						<key>Path</key>
+						<string>Firmware/Mav7Mav8-7.60.00.Release.bbfw</string>
+					</dict>
+					<key>RPM-DownloadDigest</key>
+					<data>
+					Rsn+u2mOpYEmdrw98yA8EDT5LiE=
+					</data>
+					<key>RestoreSBL1-PartialDigest</key>
+					<data>
+					cAAAAIC9AQBLeCHzsjHo8Q7+IzELZTV/ri/V
+					ow==
+					</data>
+					<key>RestoreSBL1-Version</key>
+					<integer>-1542379296</integer>
+					<key>SBL1-PartialDigest</key>
+					<data>
+					eAAAAEBsAQB9b44LqXjR3izAYl5gB4j3Iqeg
+					kg==
+					</data>
+					<key>SBL1-Version</key>
+					<integer>-1543427872</integer>
+					<key>SBL2-DownloadDigest</key>
+					<data>
+					iog3IVe+8VqgQzP2QspgFRUNwn8=
+					</data>
 				</dict>
 				<key>BatteryCharging0</key>
 				<dict>
@@ -707,14 +781,14 @@
 				<dict>
 					<key>Digest</key>
 					<data>
-					LuIH2ChPtzoDfzjyWQFy91uZ2wA=
+					3RU/e8UAYdcex9pzGHS1+ZIbBQ8=
 					</data>
 					<key>Info</key>
 					<dict>
 						<key>IsFirmwarePayload</key>
 						<true/>
 						<key>Path</key>
-						<string>Firmware/all_flash/DeviceTree.j85ap.im4p</string>
+						<string>Firmware/all_flash/DeviceTree.j87ap.im4p</string>
 						<key>RestoreRequestRules</key>
 						<array>
 							<dict>
@@ -1180,14 +1254,14 @@
 				<dict>
 					<key>Digest</key>
 					<data>
-					9+aJkom1pN+Ny3sJwde9ScaT234=
+					tI/Fs4m1AVxKKH908bZokUINfbQ=
 					</data>
 					<key>Info</key>
 					<dict>
 						<key>Img4PayloadType</key>
 						<string>rdtr</string>
 						<key>Path</key>
-						<string>Firmware/all_flash/DeviceTree.j85ap.im4p</string>
+						<string>Firmware/all_flash/DeviceTree.j87ap.im4p</string>
 						<key>RestoreRequestRules</key>
 						<array>
 							<dict>
@@ -1550,7 +1624,7 @@
 				<dict>
 					<key>Digest</key>
 					<data>
-					rTOohCYFl1Z6ztSfsBbGIInT01o=
+					xKttVnDTXKZD+k7EjBEJfJYXkKk=
 					</data>
 					<key>Info</key>
 					<dict>
@@ -1559,7 +1633,7 @@
 						<key>IsSecondaryFirmwarePayload</key>
 						<true/>
 						<key>Path</key>
-						<string>Firmware/all_flash/sep-firmware.j85.RELEASE.im4p</string>
+						<string>Firmware/all_flash/sep-firmware.j87.RELEASE.im4p</string>
 						<key>RestoreRequestRules</key>
 						<array>
 							<dict>
@@ -1655,14 +1729,14 @@
 				<dict>
 					<key>Digest</key>
 					<data>
-					RWIyBbTQjZDYG5OuqOt0+80idBM=
+					osunU/1/PyWF+xin5n8G65HgP34=
 					</data>
 					<key>Info</key>
 					<dict>
 						<key>IsSecondaryFirmwarePayload</key>
 						<true/>
 						<key>Path</key>
-						<string>Firmware/all_flash/sep-firmware.j85.RELEASE.im4p</string>
+						<string>Firmware/all_flash/sep-firmware.j87.RELEASE.im4p</string>
 						<key>RequiredCapacity</key>
 						<string>0x400000</string>
 						<key>RestoreRequestRules</key>
@@ -2050,7 +2124,7 @@
 			</dict>
 			<key>UniqueBuildID</key>
 			<data>
-			DkgygQn6Jrd/WhSBnwQim5a5ciI=
+			J52uJ2jA0mGnQe9P4nxUR6v0dKw=
 			</data>
 		</dict>
 	</array>
